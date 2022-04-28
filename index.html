@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copy-cat alan</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico"/>
+    <!--police-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;600;800&display=swap" rel="stylesheet">
+    <!-- il faut mettre les fichier css dans l'orde ou l'on souhaite que cela s'applique-->
+    
+    <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- start : menu -->
+    <header class="header">
+        <img class="header__image" src="images/logoAlanNB.png" alt="logo alan">
+        <nav class="header__nav">
+            <a class="header__link header__link--blue" href="#">Découvrir les offres</a>
+            <a class="header__link header__link--grey" href="#">Me connecter</a>
+        </nav>
+    </header>
+    <!-- end : menu -->
+    <main>
+        <!-- une section pemermet de diviser la page en différents écrans -->
+
+        <!-- start section cover-->
+        <section class="cover">
+            <div class="flux cover__flux">
+                <div class = "cover__container--text">
+                    <div>
+                        <h1 class="cover__title">L’assurance santé qui fait simple.</h1>
+                        <p class = "cover__paragraphe">14 000 entreprises de toutes tailles, des start-ups aux grandes entreprises, et des milliers d’indépendants font confiance à Alan pour leur protection santé.</p>
+                    </div>
+                    <img class="cover__image--mascotte" src="images/l'ours blanc.png" alt="petit ours blanc mascotte">
+                </div>
+                <div class="cover__container--image">
+                    <img class="cover__image" src="images/homepage-mobile-app.png" alt="exemple effichage mobile">
+                    <img class="cover__image" src="images/homepage-dashboard.png" alt="exemple affichage ordinateur" >
+                </div>
+            </div>
+            <video class= "cover__video t-video" autoplay='autoplay' loop="true" muted>
+                <source src="videos/loop-video.mp4" type="video/mp4"  >
+            </video>
+            
+        </section>
+        <!-- end : section cover -->
+
+        <section class="flux section2">
+            <h2 class="section2__title">Nos offres pensées <strong class="__green">pour vous,<br> avec vous.</strong></h2>
+            <p class="section2__encadré">👋 Salarié(e) d'une entreprise qui a rejoint Alan ? 
+                <a class="section2__encadré--link" href="#">Découvrez comment vous inscrire</a></p>
+            <ul class="section2__liste t-list">
+                <li>
+                    <div class="section2__liste--block-top">
+                    <img src="images/fusée.svg" alt="image de fusée" class="section2__emoji">
+                    <h3>Startups et PME</h3>
+                    </div>
+                    <p class="section2__liste--p">Gagnez un temps fou sur la gestion de votre assurance santé et prenez soin de vos salariés.</p>
+                </li>
+                <li>
+                    <div class="section2__liste--block-top">
+                        <img src="/images/emoji immeuble.png" alt="emoji immeuble" class="section2__emoji">
+                        <h3>Grandes entreprises</h3>
+                    </div>
+                    <p class="section2__liste--p">Avec Alan Enterprise, profitez d’une offre santé sur-mesure, au plus proche des besoins de vos collaborateurs.</p>
+                </li>
+                <li>
+                    <div class="section2__liste--block-top">
+                        <img src="images/emoji-cuisiniere.svg" alt="emoji cuisiniere" class="section2__emoji">
+                        <h3>Hotêls et Restaurants</h3>
+                    </div>
+                        <p class="section2__liste--p">Simplifiez-vous la gestion de l’assurance santé pour vos équipes au quotidien et respectez toutes vos obligations CHR.</p>
+                    
+                </li>
+                <li>
+                    <div class="section2__liste--block-top">
+                        <img src="images/emoji-peintre.svg" alt="emoji peintre" class="section2__emoji">
+                        <h3>Indépendants</h3>
+                    </div>
+                        <p class="section2__liste--p">Oubliez la paperasse et profitez d’une couverture santé complète pour un reste à charge minimal.</p>
+                    
+                </li>
+            </ul>
+        </section>
+
+        <!--end section 2-->
+        <!--start section 3-->
+        <section class="section3 flux">
+
+            <h2 class="section3__title t-title">Le meilleur de la technologie et de l’humain <strong class="__green">pour votre assurance santé</strong></h2>
+
+            <div class="bloc-section3 block-reverse">
+                <div class="bloc-section3__container-texts">
+                    <h3 class="bloc-section3__title">Des remboursements éclairs, <span class="section3__orange">au bout des doigts</span></h3>
+                    <p class="bloc-section3__description">Envoyez vos factures depuis votre smartphone, <strong>recevez vos remboursements via virements instantanés</strong> et suivez le détail depuis votre app mobile.</p>
+                </div>
+                <img class="bloc-section3__image" src="images/meditation.png" alt="">
+            </div>
+
+            <div class="bloc-section3">
+                <div class="bloc-section3__container-texts">
+                    <h3 class="bloc-section3__title">Une interface complète, <span class="section3__orange">facile à piloter</span></h3>
+                    <p class="bloc-section3__description"><strong>Gérez les arrivées et départs de vos salariés,</strong> les dispenses et même les arrêts de travail en quelques clics et <strong>respectez vos obligations</strong> en toute tranquilité.</p>
+                    <p class="bloc-section3__description"><strong>Indépendants ?</strong> Vos factures et attestation Loi Madelin sont disponibles depuis votre espace.</p>
+                    <a class="t-link" href="#">Découvrir les offres pour en savoir plus</a>
+                </div>
+                <img class="bloc-section3__image" src="images/meditation.png" alt="">
+            </div>
+
+            <div class="bloc-section3 block-reverse">
+                <div class="bloc-section3__container-texts">
+                    <h3 class="bloc-section3__title">Un médecin <span class="section3__orange">à portée de main</span></h3>
+                    <p class="bloc-section3__description"><strong>Echangez gratuitement avec un généraliste</strong> depuis notre messagerie sécurisée ou par téléconsultation vidéo, via votre app mobile.</p>
+                    <p class="bloc-section3__description">Besoin d’une consultation physique ? <strong>Trouvez un médecin ou un labo,</strong> bien remboursé, à proximité, avec Alan Map.</p>
+                    <a class="t-link" href="#">Découvrir les offres pour en savoir plus</a>
+                </div>
+                <img class="bloc-section3__image" src="images/meditation.png" alt="">
+            </div>
+
+            <div class="bloc-section3">
+                <div class="bloc-section3__container-texts">
+                    <h3 class="bloc-section3__title">Des garanties santé <span class="section3__orange">adaptées et transparentes</span></h3>
+                    <p class="bloc-section3__description"><strong>Choisissez la couverture adaptée à votre situation</strong> (besoins de santé, taille d’entreprise et secteur d’activité) et <strong>profitez des médecines douces</strong> ou encore de la méditation.</p>
+                    <a class="t-link" href="#">Découvrir les offres</a>
+                </div>
+                <img class="bloc-section3__image" src="images/meditation.png" alt="">
+            </div>
+
+        </section>
+        <!-- End : Third section -->
+        <!--start : fourth section-->
+        <section class="testimonies">
+            <h2 class="t-title testimonies__title flux">Il y a un <strong class="__green">avant et un après Alan </strong></h2>
+
+            <div class="testimonies__container">
+                <ul class="flux t-list testimonies__list ">
+                    <li>
+                        <div class="testimonies__cards-top">
+                            <img class="testimonies__images" src="images/joconde.jpg" alt="">
+                            <ul>
+                                <li class="testimonies__cards-prenom">Colombe</li>
+                                <li class="testimonies__cards-poste">COO @ Hôtels en Ville</li>
+                                <li class="testimonies__cards-responsabilite">20 hôtels - CHR</li>
+                            </ul>
+                        </div>
+                        <p>
+                            On a adoré la simplicité : on demande quelque chose, on l’a ! Par rapport aux autres mutuelles, Alan est très proactif. On a eu l’impression qu’on partageait le même combat. Ça a été très rassurant pour nous d’être accompagnés par Alan pendant la crise.
+                        </p>
+                        <a class="t-link testimonies__link" href="#">Lire la suite</a>
+                    </li>
+
+                    <li>
+                        <div class="testimonies__cards-top">
+                            <img class="testimonies__images" src="images/joconde.jpg" alt="photo indentité la joconde">
+                            <ul>
+                                <li class="testimonies__cards-prenom">Florie</li>
+                                <li class="testimonies__cards-poste">DRH @ Meilleurs Agents</li>
+                                <li class="testimonies__cards-responsabilite">300 salariés - Syntec</li>
+                            </ul>
+                        </div>
+                        <p>
+                            Dans le quotidien des collaborateurs, Alan a permis de démystifier l’assurance santé, de se réapproprier leur santé. Tout ce sur quoi Alan les aide, c’est du temps gagné pour l’équipe RH.
+                        </p>
+                        <a class="t-link testimonies__link" href="#">Voir le témoignage vidéo</a>
+                    </li>
+
+                    <li>
+                        <div class="testimonies__cards-top">
+                            <img class="testimonies__images" src="images/joconde.jpg" alt="">
+                            <ul>
+                                <li class="testimonies__cards-prenom">Christophe</li>
+                                <li class="testimonies__cards-poste">Indépendant</li>
+                            </ul>
+                        </div>
+                        <p>
+                            Première mutuelle en tant que TNS (depuis 6 mois) et j’avoue être bluffé par le rapport qualité prix, le niveau de service, l'expérience utilisateur et le petit effet que suscite ma carte lorsque je la présente chez le pharmacien ! L’appli est aussi très
+                            réussie ! Bravo Alan.
+                        </p>
+                    </li>
+                </ul>
+
+                <div class="testimonies__trust-bloc">
+
+                    <h3 class="t-title flux testimonies__trust-bloc-title">272 880 membres font confiance à Alan pour leur santé</h3>
+
+                    <p class="testimonies__trust-stars">4,5 <img src="images/stars.svg" alt=""></p>
+                    <p>selon nos utilisateurs sur l’<a href="#">App Store</a> et le <a href="#">Play Store</a></p>
+
+                    <figure>
+                        <blockquote>
+                            <p>
+                                Les interfaces de leur espace en ligne et application sont vraiment top. Et pour les échanges, là ou j’ai galéré des mois avec mon ancienne mutuelle (rattachement famille, télétransmission), tout a été réglé en quelques heures avec Alan. Je recommande
+                                !
+                            </p>
+                        </blockquote>
+                        <figcaption>François, chez Alan depuis janvier 2020</figcaption>
+                    </figure>
+                </div>
+
+                <video autoplay loop muted class="testimonies__video t-video">
+                    <source  src="videos/loop-video.mp4" type="video/mp4">
+                </video>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>
